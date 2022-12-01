@@ -40,7 +40,7 @@ public class ParkingReservationController {
         return pRepository.findAll();
     }
 
-    @GetMapping("/parkingReservation/{id}")
+    @GetMapping("/parkingreservation/{id}")
     public Optional<ParkingReservation> getAllReservationsByID(@PathVariable("id") Long id) {
         var parkingReservationById = pRepository.findById(id);
         if (parkingReservationById.isPresent()) {
