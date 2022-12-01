@@ -8,6 +8,7 @@ class Lab2ParkingApplicationTests {
 
     @Test
     void contextLoads() {
+
     }
 
 }
